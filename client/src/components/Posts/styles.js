@@ -9,10 +9,10 @@ export default makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '10px 50px',
+    padding: '100px 50px',
   },
   heading: {
-    color: 'rgba(0,183,255, 1)',
+    color: 'black', // 'rgba(0,183,255, 1)',
     textDecoration: 'none',
   },
   image: {
@@ -62,7 +62,6 @@ export default makeStyles((theme) => ({
       width: '160px',
     },
   },
-
   actionDiv: {
     textAlign: 'center',
   },
