@@ -11,15 +11,17 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(2),
   },
   form: {
+    backgroundColor: 'white',
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
   },
   fileInput: {
-    width: '97%',
+    width: '96%',
     margin: '10px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
+    marginTop: 20,
+    marginBottom: 20,
   },
 }));
