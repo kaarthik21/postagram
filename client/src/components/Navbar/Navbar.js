@@ -15,6 +15,11 @@ const Navbar = () => {
   const history = useHistory();
   const classes = useStyles();
 
+  const create = () => {
+    dispatch({ type: actionType.CREATE });
+    history.push('/create');
+  };
+
   const logout = () => {
     dispatch({ type: actionType.LOGOUT });
 
@@ -45,7 +50,7 @@ const Navbar = () => {
         {user?.result ? (
           <div className={classes.profile}>
             <Typography className={classes.userName} variant="h6">{user?.result.name}</Typography>
-            <Button variant="contained" className={classes.create} color="secondary">Create post</Button>
+            <Button variant="contained" className={classes.create} color="secondary" onClick={create}>Create post</Button>
             <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>Logout</Button>
           </div>
         ) : (
