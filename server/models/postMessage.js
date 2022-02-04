@@ -13,7 +13,6 @@ const postSchema = mongoose.Schema({
         default: new Date(),
     },
 })
-
 var PostMessage = mongoose.model('PostMessage', postSchema);
 
 export default PostMessage;
