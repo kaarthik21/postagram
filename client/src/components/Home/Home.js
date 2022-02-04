@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // useState Hook is where variables are stored in functional components
 // useEffect is for fetching data, directly updating to DOM
-// Hooks are used 
+// Hooks are used
 import { Container, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
