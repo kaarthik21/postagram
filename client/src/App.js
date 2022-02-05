@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
-// for multi page
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// for multi page
 
 import Home from './components/Home/Home';
 import Create from './components/Create/Create';

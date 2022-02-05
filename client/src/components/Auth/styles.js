@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    padding: theme.spacing(3),
+    padding: theme.spacing(5),
   },
   root: {
     '& .MuiTextField-root': {
@@ -16,16 +16,12 @@ export default makeStyles((theme) => ({
   avatar: {
     margin: theme.spacing(1),
     backgroundColor: '#bd6afe',
-
   },
   form: {
     width: '100%', // Fix IE 11 issue.
-    marginTop: theme.spacing(3),
+    marginTop: theme.spacing(1),
   },
   submit: {
     margin: theme.spacing(5, 0, 2),
-  },
-  googleButton: {
-    marginBottom: theme.spacing(2),
   },
 }));
