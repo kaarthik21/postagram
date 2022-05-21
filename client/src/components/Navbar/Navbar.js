@@ -51,8 +51,8 @@ const Navbar = () => {
         {user?.result ? (
           <div className={classes.profile}>
             <Typography className={classes.userName} variant="h6">{user?.result.name}</Typography>
-            <Button variant="contained" className={classes.create} color="secondary" onClick={create}>Create post</Button>
-            <Button variant="contained" className={classes.logout} color="primary" onClick={logout}>Logout</Button>
+            <Button style={{ marginLeft: '-70px', minHeight: '35px', maxHeight: '35px', minWidth: '127px', maxWidth: '130px', fontSize: '13px' }} variant="contained" className={classes.create} color="secondary" onClick={create}>Create post</Button>us:&nbsp;
+            <Button style={{ minHeight: '35px', maxHeight: '35px', minWidth: '70px', maxWidth: '80px', fontSize: '13px' }} variant="contained" className={classes.logout} color="primary" onClick={logout}>Logout</Button>
           </div>
         ) : (
           <Button component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
